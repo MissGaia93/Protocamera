@@ -49,8 +49,8 @@ def apply_hudb(request):
 picam2a.start_preview(Preview.QTGL, x=0, y=-100, width=1080, height=1200)
 picam2b.start_preview(Preview.QTGL, x=2160, y=-100, width=1080, height=1200)
 		
-picam2a.pre_callback = apply_huda
-picam2b.pre_callback = apply_hudb
+#picam2a.pre_callback = apply_huda
+#picam2b.pre_callback = apply_hudb
 
 picam2a.start()
 
